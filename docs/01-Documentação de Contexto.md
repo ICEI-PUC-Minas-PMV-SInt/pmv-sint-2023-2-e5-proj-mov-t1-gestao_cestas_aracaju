@@ -23,16 +23,16 @@ Outro problema ressaltado na entrega das cestas, é falta de intendificação po
 
 A aplicação será utilizada pelo Diregente e Voluntários do Projeto Social e seus principais problemas são:
 
-> - Identificar as pessoas no momento da entrega, pois muitas não apresentam documento com foto ou não possuem um documento com foto.
+- Identificar as pessoas no momento da entrega, pois muitas não apresentam documento com foto ou não possuem um documento com foto.
 
-> - Identificar outros moradores que possam receber a cesta devido a falta de documentos e a possibilidade de casdastro de apenas um
+- Identificar outros moradores que possam receber a cesta devido a falta de documentos e a possibilidade de casdastro de apenas um
 dependente.
 
-> - Manter um histórico de entrega de cestas às famílias beneficiadas, já que tudo é realizado por atualização no excel.
+- Manter um histórico de entrega de cestas às famílias beneficiadas, já que tudo é realizado por atualização no excel.
 
-> - Identificar uma pessoa pelo nome social quando não encontram a casa ou a pessoa não está em casa, já que os vizinhos se conhecem por apelidos.
+- Identificar uma pessoa pelo nome social quando não encontram a casa ou a pessoa não está em casa, já que os vizinhos se conhecem por apelidos.
 
-> - Registrar outras necessidades da comunidade atendida, como utensílios e objetos básicos para subsistência, já que o registro é realizado de maneira desordenada no Whatssapp.
+- Registrar outras necessidades da comunidade atendida, como utensílios e objetos básicos para subsistência, já que o registro é realizado de maneira desordenada no Whatssapp.
 
 ## Objetivos
 
@@ -40,11 +40,11 @@ Objetivo Geral: Desenvolver uma Aplicação Móvel que permita o cadastro e cont
 
 Objetivos Específicos:
 
-> - Desenvolver uma aplicação móvel que permita o castrado com foto da matriarca da família e seus dependentes;
+- Desenvolver uma aplicação móvel que permita o castrado com foto da matriarca da família e seus dependentes;
 
-> - Possibilitar que aplicação móvel gere a visualização de histórico de entregas paras as famílias atendidas;
+- Possibilitar que aplicação móvel gere a visualização de histórico de entregas paras as famílias atendidas;
 
-> - Possibilitar que aplicação móvel tenha uma área específica para adicionar outras necessidades básicas que a família possua.
+- Possibilitar que aplicação móvel tenha uma área específica para adicionar outras necessidades básicas que a família possua.
 
 
 ## Justificativa
