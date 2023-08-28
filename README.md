@@ -1,23 +1,22 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`CURSO` Tecnologia em Sistemas para Internet
 
-`DISCIPLINA`
+`DISCIPLINA` Desenvolvimento de Aplicações Móveis
 
-`SEMESTRE`
+`SEMESTRE`5º Semestre
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Amanda Paloma Lourenço
+* Elaine Souza Melo
+
 
 ## Orientador
 
-* Nome completo do professor 1
+* Leonardo Vilela Cardoso
 
 ## Instruções de utilização
 
