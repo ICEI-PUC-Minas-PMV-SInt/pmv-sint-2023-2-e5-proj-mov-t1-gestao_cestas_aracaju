@@ -32,7 +32,7 @@ dependente.
 
 - Identificar uma pessoa pelo nome social quando não encontram a casa ou a pessoa não está em casa, já que os vizinhos se conhecem por apelidos.
 
-- Registrar outras necessidades da comunidade atendida, como utensílios e objetos básicos para subsistência, já que o registro é realizado de maneira desordenada no Whatssapp.
+- Registrar outras necessidades da comunidade atendida, como utensílios e objetos básicos para subsistência, já que o registro é realizado de maneira desordenada no Whatsapp.
 
 ## Objetivos
 
