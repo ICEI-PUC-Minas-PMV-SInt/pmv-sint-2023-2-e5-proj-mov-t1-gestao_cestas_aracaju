@@ -36,7 +36,9 @@ dependente.
 
 ## Objetivos
 
-Objetivo Geral: Desenvolver uma Aplicação Móvel que permita o cadastro e controle de entregas, o gerenciamento de histórico de cestas e o registro de utensílios básicos que as famílias necessitam.
+Objetivo Geral: 
+
+- Desenvolver uma Aplicação Móvel que permita o cadastro e controle de entregas, o gerenciamento de histórico de cestas e o registro de utensílios básicos que as famílias necessitam.
 
 Objetivos Específicos:
 
