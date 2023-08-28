@@ -1,18 +1,38 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+O projeto foi concebido através da iniciativa de um dos membros do Grupo Espírita Esperança e Fraternidade situado em Aracaju, Sergipe. Este projeto atende uma comunidade com aproximadamente 150 famílias. Acomunidade está situada na Estrada Divina Pastora, SE-240, Maruim/SE, conhecida popularmente como Rua da Lama ou Rua do Osso. As famílias da comunidade se encontram em vunerabilidade social e alimentar e a maioria vivem em casas de taipa (madeira e barro).
+
+O objetivo principal do projeto é levar as cestas básicas para a subsistência das famílias durante o mês.
+
+Os recursos para a compra das cestas basicas provém de um Instituto Beneficente de São Paulo. O Instituto efetua o pagamento de 100 cestas básicas ao fornecedor de cestas em Aracaju/SE. As cestas são montadas pelo fornecedor e coletadas pelos voluntários que realizam as entregas das cestas. 
+
+As entregas acontecem a cada trinta dias e as cestas são transportadas em dois veículos que vão de porta em porta nas casas da comunidade.
+
+O cadastro de famílias que necessitam das cestas é realizado durante uma visita específicamente para este ato. Onde é realizado visita de
+porta em porta verificando as condições de vida e necessidades das famílias. É levado em consideração o desemprego, o recebimento de auxílio governamental, a insegurança alimentar, a estrutura da moradia, as mazelas físicas, portadores de necessidades especiais e a
+existência de dependentes.
+
+O cadastro, controle de entregas são realizadas através de planilhas impressas, que são atualizadas periodicamente. Geralmente é cadastrado o nome da matriarca da família e um dependente devido ao espaço limitado da folha. Os dados coletados são Nome, RG e CPF. 
+
+As casas não possuem identificação por número o que dificulda o mapeamento de entrega. Quando não se encontra o beneficiário da cesta, pergunta-se aos vizinhos, no entanto eles se conhecem por apelido e não pelo nome social, o que dificulta a identificação.
+
+Outro problema ressaltado na entrega das cestas, é falta de intendificação por foto, devido a falta de documento e a falta de identificação de outros moradores da residência quando os cadastrados não estão em casa.
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+A aplicação será utilizada pelo Diregente e Voluntários do Projeto Social e seus principais problemas são:
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+> - Identificar as pessoas no momento da entrega, pois muitas não apresentam documento com foto ou não possuem um documento com foto.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+> - Identificar outros moradores que possam receber a cesta devido a falta de documentos e a possibilidade de casdastro de apenas um
+dependente.
+
+> - Manter um histórico de entrega de cestas às famílias beneficiadas, já que tudo é realizado por atualização no excel.
+
+> - Identificar uma pessoa pelo nome social quando não encontram a casa ou a pessoa não está em casa, já que os vizinhos se conhecem por apelidos.
+
+> - Registrar outras necessidades da comunidade atendida, como utensílios e objetos básicos para subsistência, já que o registro é realizado de maneira desordenada no Whatssapp.
 
 ## Objetivos
 
