@@ -1,6 +1,6 @@
 # Introdução
 
-O projeto foi concebido através da iniciativa de um dos membros do Grupo Espírita Esperança e Fraternidade situado em Aracaju, Sergipe. Este projeto atende uma comunidade com aproximadamente 150 famílias. Acomunidade está situada na Estrada Divina Pastora, SE-240, Maruim/SE, conhecida popularmente como Rua da Lama ou Rua do Osso. As famílias da comunidade se encontram em vunerabilidade social e alimentar e a maioria vivem em casas de taipa (madeira e barro).
+O projeto foi concebido através da iniciativa de um dos membros do Grupo Espírita Esperança e Fraternidade situado em Aracaju/Sergipe. Este projeto atende uma comunidade com aproximadamente 150 famílias. A comunidade está situada na Estrada Divina Pastora, SE-240, Maruim/SE, conhecida popularmente como Rua da Lama ou Rua do Osso. As famílias da comunidade se encontram em vunerabilidade social e alimentar e a maioria vivem em casas de taipa (madeira e barro).
 
 O objetivo principal do projeto é levar as cestas básicas para a subsistência das famílias durante o mês.
 
@@ -8,7 +8,7 @@ Os recursos para a compra das cestas basicas provém de um Instituto Beneficente
 
 As entregas acontecem a cada trinta dias e as cestas são transportadas em dois veículos que vão de porta em porta nas casas da comunidade.
 
-O cadastro de famílias que necessitam das cestas é realizado durante uma visita específicamente para este ato. Onde é realizado visita de
+O cadastro de famílias que necessitam das cestas é realizado durante uma visita especificamente para este ato. Onde é realizado visita de
 porta em porta verificando as condições de vida e necessidades das famílias. É levado em consideração o desemprego, o recebimento de auxílio governamental, a insegurança alimentar, a estrutura da moradia, as mazelas físicas, portadores de necessidades especiais e a
 existência de dependentes.
 
@@ -36,21 +36,22 @@ dependente.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Objetivo Geral: Desenvolver uma Aplicação Móvel que permita o cadastro e controle de entregas, o gerenciamento de histórico de cestas e o registro de utensílios básicos que as famílias necessitam.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Objetivos Específicos:
+
+> - Desenvolver uma aplicação móvel que permita o castrado com foto da matriarca da família e seus dependentes;
+
+> - Possibilitar que aplicação móvel gere a visualização de histórico de entregas paras as famílias atendidas;
+
+> - Possibilitar que aplicação móvel tenha uma área específica para adicionar outras necessidades básicas que a família possua.
+
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+O referido projeto justifica-se pela necessidade em fornecer uma ferramenta que atenda de forma eficaz as necessidades dos voluntários do projeto social, visto que toda parte administrativa do projeto é realizada através de planilhas no excel. Esse controle realizado por planilhas tornou-se ineficaz, segundo os voluntários entrevistados, já que são limitados para o cadastro, controle de entrega e anotações de demais necessidades, pois necessita de periódicas atualizações manuais. As planilhas impressas também dificultam a agilidade na entrega das cestas, pois a lista apresenta em torno de 150 famílias cadastradas.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+O projeto social busca sanar uma grave falha nos direitos fundamentais da pequena comunidade de Maruim/SE e por isso, tornou-se de suma importância o desenvolvento de uma aplicação móvel que os ajude nesse processo.  
 
 ## Público-Alvo
 
