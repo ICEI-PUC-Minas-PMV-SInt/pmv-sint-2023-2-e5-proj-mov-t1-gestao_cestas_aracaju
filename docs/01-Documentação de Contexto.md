@@ -57,13 +57,5 @@ O projeto social busca sanar uma grave falha nos direitos fundamentais da pequen
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O público alvo do projeto são voluntários com idade entre 30 e 60 anos, que desempenham diversas funções no projeto como: cadastro de beneficiados, coleta e entrega de cestas. Todos os voluntários entrevistados dizem-se familiares com a tecnlogia. Alguns deles desempenham as três funções e outros participam somente da distribuição. Há também um dirigente que realiza as visitas às comunidades carentes, verificando as situações das famílias que necessitam receber as cestas.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
