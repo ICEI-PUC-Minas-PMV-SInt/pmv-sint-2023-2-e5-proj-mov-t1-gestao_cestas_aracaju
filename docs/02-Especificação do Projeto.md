@@ -7,8 +7,133 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
+<table>
+  <tr>
+    <th>Foto</th>
+    <th>Nome</th>
+    <th>Descrição</th>
+    <th>Aplicativos</th>
+    <th>Motivações</th>
+    <th>Frustrações</th>
+    <th>Hobbies</th>
+  </tr
+        <tr>
+    <td><img title="Maria Aparecida" src="https://images.unsplash.com/photo-1626668011687-8a114cf5a34c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"/></td>
+    <td>Maria Aparecida</td>
+    <td>
+      <ul>
+        <li>68 anos</li>
+        <li>Aposentada</li>
+        <li>Mora em uma casa de taipa em Maruim/SE.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Não usa redes sociais</li>
+         </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Cuidar da família</li>
+        <li>Prover a subsistência dos filhos</li>
+      </ul>
+    </td>
+    <td>
+      <li>Não terminou o ensino fundamental</li>
+      <li>Possui filhos desempregados</li>
+    </td>
+    <td>
+      <li>Ver novelas</li>
+      <li>Costurar</li
+    </td>
+  </tr>
+  <tr>
+      <td><img title="Gisele" src="https://images.unsplash.com/photo-1602184572201-89c7deeddf3c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80"/></td>
+    <td>Gisele Pereira</td>
+    <td>
+      <ul>
+        <li>36 anos</li>
+        <li>Advogada</li>
+        <li>Mora em Recife/SE.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>É familiar com todas as rede sociais</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li> Finalizar seu mestrado.</li>
+        <li> Contribuir em projetos sociais.</li>
+      </ul>
+    </td>
+    <td>
+      <li> Dificuldades no processo operacional na entrega de cestas do projeto social em que é voluntária. </li>
+     </td>
+    <td>
+      <li> Ler livros.</li>
+      <li>Cozinhar com o filho</li>
+    </td>
+  </tr>
+    <tr>
+    <td><img title="Túlio Almeida" src="https://images.unsplash.com/photo-1599256621730-535171e28e50?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=371&q=80" /></td>
+      <td>Túlio Almeida</td>
+    <td>
+      <ul>
+        <li>31 anos</li>
+        <li>Engenheiro Químico</li>
+        <li>Mora em Recife/SE.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Familiar com todas as redes sociais.</li
+        </ul>
+    </td>
+    <td>
+      <ul>
+        <li> Contribuir no gerenciamento de coleta e entrega de cestas básicas à comunidades carentes.</li>
+      </ul>
+    </td>
+    <td>
+      <li> Dificuldades em identificar a população carente atendinda devido a limitação da identificação apenas por Rg ou cpf(pois muitas não apresentam ou não tem documento).</li>
+         </td>
+    <td>
+      <li> Política</li>
+      <li> Música</li>
+    </td>
+  </tr>
+  <tr>
+     <td><img title="Manoel Martins" src="https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=412&q=80"/></td>
+    <td>Manoel Martins</td>
+    <td>
+      <ul>
+        <li>31 anos</li>
+        <li>Vendedor</li>
+        <li>Mora em Recife/SE</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li> Usa apenas redes sociais essesnciais como Whatssap, gmail.</li> 
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li> Continuar ajudando famílias carentes da região.</li>
+      </ul>
+    </td>
+    <td>
+      <li> Atualização mensal dos dados em tabelas (no excel) referente a entrega de cestas.</li>
+        </td>
+    <td>
+      <li> Participar do Grupo Espríta.</li>
+    </td>
+  </tr>
+  <tr>
+</table>
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
