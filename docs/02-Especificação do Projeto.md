@@ -153,17 +153,15 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Diretor do projeto | Gerenciar as entregas do mês           | Permitir o controle das doações               |
+|Voluntário/usuário       | Cadastrar as famílias                 | Permitir que os beneficiários aptos sejam inseridos no sistema do programa |
+|Voluntário/usuário       | Atualizar cadastro do beneficiado                 | Permitir que os dados cadastrais dos beneficiários sejam atualizados inseridos no sistema do programa |
+|Voluntário/usuário       | Registrar entrega da cesta                 | Permitir o registro de entrega da cesta do mês |
+|Voluntário/usuário       | Registrar as necessidades essenciais                 | Permitir o registro de listas de necessidades essenciais atreladas a cada família |
+|Voluntário/usuário       | Consultar histórico do beneficiado                 | Permitir que o usuário possa identificar possíveis mudanças no fluxo das entregas passadas |
+|Voluntário/usuário       | Gerar relatório de entrega das cestas                 | Permitir que um relatório seja gerado com informações sobre a entrega daquele período |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Modelagem do Processo de Negócio 
 
@@ -204,30 +202,29 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Permitir login dos usuários | ALTA | 
+|RF-002| Permitir logoff dos usuários   | ALTA |
+|RF-003| Permitir cadastro de beneficiários | ALTA | 
+|RF-004| Consultar por beneficiários  | ALTA |
+|RF-005| Permitir atualização dos dados cadastrados dos beneficiários | ALTA | 
+|RF-006| Permitir a exclusão dos dados cadastrados dos usuários   | ALTA |
+|RF-007| Permitir a inserção de itens na lista de necessidades essenciais | ALTA | 
+|RF-008| Permitir edição das listas de necessidades  | ALTA|
+|RF-009| Registrar a entrega das cestas | ALTA | 
+|RF-010| Gerar histórico dos beneficiários   | ALTA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O sistema deve ser desenvolvido para dispositivo móvel | ALTA | 
+|RNF-002| O sistema deve ser desenvolvido em JavaScript (framework React Native) |  MÉDIA| 
+|RNF-003| O sistema deve está disponível online e offline | ALTA | 
+|RNF-004| O sistema deve exigir identificação prévia | ALTA | 
+|RNF-005| O sistema deve ser utilizável |  ALTA |
+|RNF-006| O sistema deve conter mensagens de erro | ALTA|
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
@@ -236,13 +233,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|02| O sistema deve atender às necessidades e expectativas dos usuários        |
+|03| O sistema deve atender às leis e a regulamentos aplicáveis, como a LGPD        |
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
