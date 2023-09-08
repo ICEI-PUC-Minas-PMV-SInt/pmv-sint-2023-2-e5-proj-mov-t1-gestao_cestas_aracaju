@@ -203,15 +203,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001| Permitir login dos usuários | ALTA | 
-|RF-002| Permitir logoff dos usuários   | ALTA |
-|RF-003| Permitir cadastro de beneficiários | ALTA | 
-|RF-004| Consultar por beneficiários  | ALTA |
-|RF-005| Permitir atualização dos dados cadastrados dos beneficiários | ALTA | 
-|RF-006| Permitir a exclusão dos dados cadastrados dos usuários   | ALTA |
-|RF-007| Permitir a inserção de itens na lista de necessidades essenciais | ALTA | 
-|RF-008| Permitir edição das listas de necessidades  | ALTA|
-|RF-009| Registrar a entrega das cestas | ALTA | 
-|RF-010| Gerar histórico dos beneficiários   | ALTA |
+|RF-002| O sistema deve exigir autenticação para login| ALTA 
+|RF-003| Permitir logoff dos usuários   | ALTA |
+|RF-004| Permitir cadastro de beneficiários | ALTA | 
+|RF-005| Consultar por beneficiários  | ALTA |
+|RF-006| Permitir atualização dos dados cadastrados dos beneficiários | ALTA | 
+|RF-007| Permitir a exclusão dos dados cadastrados dos usuários   | ALTA |
+|RF-008| Permitir a inserção de itens na lista de necessidades essenciais | ALTA | 
+|RF-009| Permitir edição das listas de necessidades  | ALTA|
+|RF-010| Registrar a entrega das cestas | ALTA | 
+|RF-011| Gerar histórico dos beneficiários   | ALTA |
 
 ### Requisitos não Funcionais
 
@@ -220,9 +221,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001| O sistema deve ser desenvolvido para dispositivo móvel | ALTA | 
 |RNF-002| O sistema deve ser desenvolvido em JavaScript (framework React Native) |  MÉDIA| 
 |RNF-003| O sistema deve está disponível online e offline | ALTA | 
-|RNF-004| O sistema deve exigir identificação prévia | ALTA | 
-|RNF-005| O sistema deve ser utilizável |  ALTA |
-|RNF-006| O sistema deve conter mensagens de erro | ALTA|
+|RNF-004| O sistema deve ser de fácil usabilidade |  ALTA |
+|RNF-005| O sistema deve conter mensagens de erro | ALTA|
 
 
 
