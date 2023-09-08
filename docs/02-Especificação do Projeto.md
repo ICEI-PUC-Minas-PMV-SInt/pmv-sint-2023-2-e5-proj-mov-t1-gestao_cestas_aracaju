@@ -196,7 +196,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-004| Permitir cadastro de beneficiários | ALTA | 
 |RF-005| Consultar por beneficiários  | ALTA |
 |RF-006| Permitir atualização dos dados cadastrados dos beneficiários | ALTA | 
-|RF-007| Permitir a exclusão dos dados cadastrados dos usuários   | ALTA |
+|RF-007| Permitir a exclusão dos dados cadastrados de beneficiários   | ALTA |
 |RF-008| Permitir a inserção de itens na lista de necessidades essenciais | ALTA | 
 |RF-009| Permitir edição das listas de necessidades  | ALTA|
 |RF-010| Registrar a entrega das cestas | ALTA | 
@@ -257,6 +257,6 @@ O gerenciamento adequado de tarefas contribuirá para que o projeto alcance alto
 
 ## Gestão de Orçamento
 
-O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
+O custo se baseou na dedicação de horas necessárias ao desenvolvimento da aplicação, não sendo necessário recursos de hardware, software e rede.
 
-![Orçamento](img/02-orcamento.png)
+![Orçamento](img/gerenciamento_custo01.png)
