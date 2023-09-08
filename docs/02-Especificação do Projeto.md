@@ -232,7 +232,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Matriz de Rastreabilidade
 
-![Matriz de Rastreabilidade](img/matriz_rastreabilidade.png)
+![Matriz de Rastreabilidade](img/matriz_rastreabilidade01.png)
 
 
 # Gerenciamento de Projeto
