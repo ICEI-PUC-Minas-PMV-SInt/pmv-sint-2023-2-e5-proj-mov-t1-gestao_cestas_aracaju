@@ -227,7 +227,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Diagrama de Casos de Uso
 
-![Diagrama caso de uso](img/diagrama_caso_uso.png)
+![Diagrama caso de uso](img/Projeto_cestas_aracaju_caso_uso.png)
 
 
 # Matriz de Rastreabilidade
