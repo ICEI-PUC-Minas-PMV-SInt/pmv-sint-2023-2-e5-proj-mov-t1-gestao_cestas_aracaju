@@ -221,7 +221,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| O sistema deve atender às necessidades e expectativas dos usuários        |
+|02| O sistema deverá ser desenlvovido baseado nas necessidades dos usuários        |
 |03| O sistema deve atender às leis e a regulamentos aplicáveis, como a LGPD        |
 
 
@@ -253,7 +253,7 @@ O gráfico de Gantt listando as tarefas e o tempo necessário para de execução
 
 O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
 
-![Simple Project Timeline](img/02-project-timeline.png)
+![Simple Project Timeline](img/equipe.png)
 
 ## Gestão de Orçamento
 
