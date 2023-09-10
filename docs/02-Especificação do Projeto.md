@@ -313,6 +313,7 @@ Scrum Master: Elaine Souza Melo;<br>
 Product Owner: Amanda Paloma Lourenço;<br>
 Equipe de Desenvolvimento: Amanda Paloma Lourenço e Elaine Souza Melo;
 
+O quadro Kanban é uma ferramenta visual que relaciona as atividades de um projeto por etapas, descrevendo o que deverá ser contemplado em cada entrega e quais os participantes de cada atividade. Ele também mostra quais etapas estão sendo desenvolvidas, quais estão para começar o desenvolvimento e quais foram concluídas.
 
 ![Simple Project Timeline](img/equipe.png)
 
