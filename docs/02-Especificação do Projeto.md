@@ -2,9 +2,14 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+A ideiação do projeto foi baseada em pesquisas com entrevistas, que foram importantes para a caracterização das personas e, consequentemente, das histórias de usuários. O processo de criação se baseia no usuário, de modo que ele possa usufruir da ferramenta proposta de forma simples e intuitiva.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+No desenvolvimento do projeto, a metodologia escolhida foi o Scrum, que se desenvolve por meio de sprints. Dessa forma, há a possibilidade de iteração do projeto e elicitação dos requisitos, tanto funcionais quanto não funcionais.
+
+Para a gestão do projeto, utilizamos o gráfico de Gantt para a gestão do tempo de desenvolvimento e o Trello para a gestão da equipe e suas atividades.<br>
+
+O gerenciamento da documentação e do código-fonte do projeto, ocorrerá atraveś do Git e GitHub.
+
 
 ## Personas
 <table>
@@ -227,7 +232,53 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Diagrama de Casos de Uso
 
+
 ![Diagrama caso de uso](img/Projeto_cestas_aracaju_caso_uso.png)
+
+Caso de Uso: Login do usuário. <br>
+Atores: Usuário.<br>
+Pré-condições: O usuário deve ter um cadastro no sistema.<br>
+Pós-condições: O usuário deve ter acesso ao sistema.<br>
+Estende: Senha incorreta / Alterar senha.
+
+Caso de Uso: Cadastrar Beneficiário.<br>
+Atores: Usuário.<br>
+Pré-condições: O usuário deve ter um cadastro no sistema.<br>
+Pós-condições: O beneficiário deve ser cadastrado no sistema.<br>
+Inclui: Validar dados do beneficiário / Salvar dados do beneficiário.<br>
+Estende: Erro ao cadastrar
+
+Caso de Uso: Salvar Dados do Beneficiário.<br>
+Atores: Sistema.<br>
+Pré-condições: Os dados do beneficiário devem ser validados.<br>
+Pós-condições: Os dados do beneficiário devem ser salvos no sistema.<br>
+Estende: registrar lista de necessidades.
+
+Caso de Uso: Pesquisar Beneficiários.<br>
+Atores: Usuário.<br>
+Pré-condições: O usuário deve ter um cadastro no sistema.<br>
+Pós-condições: O usuário deve ter encontrado o beneficiário que está 
+procurando.
+
+Caso de Uso: Alterar cadastro do Beneficiário.<br>
+Atores: Usuário.<br>
+Pré-condições: O usuário deve ter um cadastro no sistema.<br>
+Pós-condições: O usuário deve ter atualizado os dados beneficiário que está 
+procurando.<br>
+Estende: Atualizar dados do beneficiário.
+
+Caso de Uso: Remover Beneficiários.<br>
+Atores: Usuário.<br>
+Pré-condiçoes: O usuário deve ter um cadastro no sistema.<br>
+Pós-condiçoes: O beneficiário deve ser removido do sistema.<br>
+Inclui: Excluir os dados do beneficiário.
+
+Caso de Uso: Registrar entrega de cestas.<br>
+Atores: Usuário.<br>
+Pré-condições: O usuário deve ter um cadastro no sistema.<br>
+Pós-condição: O registro deve está presente no histórico do beneficiário.<br>
+Inclui: Gerar relatório das entregas.
+___
 
 
 # Matriz de Rastreabilidade
@@ -238,6 +289,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 # Gerenciamento de Projeto
 
 De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar projetos, e que caracterizam a multidisciplinaridade envolvida, são: Integração, Escopo, Cronograma (Tempo), Custos, Qualidade, Recursos, Comunicações, Riscos, Aquisições, Partes Interessadas. Para desenvolver projetos um profissional deve se preocupar em gerenciar todas essas dez áreas. Elas se complementam e se relacionam, de tal forma que não se deve apenas examinar uma área de forma estanque. É preciso considerar, por exemplo, que as áreas de Escopo, Cronograma e Custos estão muito relacionadas. Assim, se eu amplio o escopo de um projeto eu posso afetar seu cronograma e seus custos.
+
 
 ## Gerenciamento de Tempo
 
@@ -251,7 +303,16 @@ O gráfico de Gantt listando as tarefas e o tempo necessário para de execução
 
 ## Gerenciamento de Equipe
 
-O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
+O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados.
+
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
+
+A equipe está organizada da seguinte maneira:
+
+Scrum Master: Elaine Souza Melo;<br>
+Product Owner: Amanda Paloma Lourenço;<br>
+Equipe de Desenvolvimento: Amanda Paloma Lourenço e Elaine Souza Melo;
+
 
 ![Simple Project Timeline](img/equipe.png)
 
