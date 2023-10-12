@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# GESTOR DE CESTAS
 
 `CURSO` Tecnologia em Sistemas para Internet
 
