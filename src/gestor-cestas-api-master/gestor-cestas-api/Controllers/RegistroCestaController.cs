@@ -7,11 +7,11 @@ namespace gestor_cestas_api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class BeneficiariosController : ControllerBase
+    public class RegistroCestaController : ControllerBase
     {
         private readonly AppDbContext _context;
 
-        public BeneficiariosController(AppDbContext context)
+        public RegistroCestaController(AppDbContext context)
         {
             _context = context;
         }
@@ -19,14 +19,14 @@ namespace gestor_cestas_api.Controllers
         [HttpGet]
         public async Task<ActionResult> GetAll()
         {
-            var model = await _context.Beneficiarios.ToListAsync();
+            var model = await _context.RegistroCestas.ToListAsync();
             return Ok(model);
         }
 
         [HttpPost]
-        public async Task<ActionResult> Create(Beneficiario model)
+        public async Task<ActionResult> Create(RegistroCesta model)
         {
-            _context.Beneficiarios.Add(model);
+            _context.RegistroCestas.Add(model);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetById", new { id = model.Id }, model);
@@ -35,25 +35,25 @@ namespace gestor_cestas_api.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult> GetById(int id)
         {
-            var model = await _context.Beneficiarios
+            var model = await _context.RegistroCestas
                 .FirstOrDefaultAsync(c => c.Id == id);
 
             if (model == null) return NotFound();
 
-            GerarLinks(model);
             return Ok(model);
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult> Update(int id, Beneficiario model)
+
+        public async Task<ActionResult> Update(int id, RegistroCesta model)
         {
             if (id != model.Id) return BadRequest();
-            var modeloDb = await _context.Beneficiarios.AsNoTracking()
+            var modeloDb = await _context.RegistroCestas.AsNoTracking()
                 .FirstOrDefaultAsync(c => c.Id == id);
 
             if (modeloDb == null) return NotFound();
 
-            _context.Beneficiarios.Update(model);
+            _context.RegistroCestas.Update(model);
             await _context.SaveChangesAsync();
 
             return NoContent();
@@ -62,27 +62,41 @@ namespace gestor_cestas_api.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(int id)
         {
-            var model = await _context.Beneficiarios.FindAsync(id);
+            var model = await _context.RegistroCestas.FindAsync(id);
 
             if (model == null) NotFound();
 
             if (model != null)
             {
-                _context.Beneficiarios.Remove(model);
+                _context.RegistroCestas.Remove(model);
                 await _context.SaveChangesAsync();
             }
 
-
             return NoContent();
-
         }
 
-        private void GerarLinks(Beneficiario model)
+        [HttpGet("/lista-beneficiario/{idBeneficiario}")]
+        public async Task<ActionResult> GetByIdBeneficiario(int idBeneficiario)
         {
-            model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "self", metodo: "GET"));
-            model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "update", metodo: "PUT"));
-            model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "delete", metodo: "Delete"));
+            var model = await _context.RegistroCestas
+                .Where(c => c.IdBeneficiario == idBeneficiario)
+                .ToListAsync();
 
+            if (model == null) return NotFound();
+
+            return Ok(model);
+        }
+
+        [HttpGet("/lista-voluntario/{idVoluntario}")]
+        public async Task<ActionResult> GetByIdVoluntario(int idVoluntario)
+        {
+            var model = await _context.RegistroCestas
+                .Where(c => c.IdVoluntario == idVoluntario)
+                .ToListAsync();
+
+            if (model == null) return NotFound();
+
+            return Ok(model);
         }
 
     }

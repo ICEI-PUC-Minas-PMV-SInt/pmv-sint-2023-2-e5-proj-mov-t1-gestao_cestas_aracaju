@@ -19,26 +19,6 @@ namespace gestor_cestas_api.Models
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // Configura as chaves estrangeiras
-            modelBuilder.Entity<RegistroCesta>()
-                .HasOne(ce => ce.Beneficiario)
-                .WithMany(b => b.RegistroCesta)
-                .HasForeignKey(ce => ce.IdBeneficiario);
-
-            modelBuilder.Entity<RegistroCesta>()
-                .HasOne(ce => ce.Voluntario)
-                .WithMany(v => v.RegistroCesta)
-                .HasForeignKey(ce => ce.IdVoluntario);
-
-            modelBuilder.Entity<ListaNecessidade>()
-                .HasOne(ln => ln.Beneficiario)
-                .WithMany(b => b.ListaNecessidade)
-                .HasForeignKey(ln => ln.IdBeneficiario);
-
-            modelBuilder.Entity<Dependente>()
-                .HasOne(d => d.Beneficiario)
-                .WithMany(b => b.Dependente)
-                .HasForeignKey(d => d.IdBeneficiario);
-
             base.OnModelCreating(modelBuilder);
 
         }

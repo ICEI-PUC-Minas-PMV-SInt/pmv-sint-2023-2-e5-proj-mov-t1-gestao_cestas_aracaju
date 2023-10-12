@@ -17,9 +17,5 @@ namespace gestor_cestas_api.Models
         public int QuantidadeCesta { get; set; }
         public DateTime DataEntrega { get; set; }
 
-        // Propriedades de navegação para as chaves estrangeiras
-        public Beneficiario Beneficiario { get; set; }
-        public Voluntario Voluntario { get; set; }
-
     }
 }

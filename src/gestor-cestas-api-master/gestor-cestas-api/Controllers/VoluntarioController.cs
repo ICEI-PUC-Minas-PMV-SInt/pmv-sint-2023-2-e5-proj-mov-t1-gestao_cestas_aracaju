@@ -7,11 +7,11 @@ namespace gestor_cestas_api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class BeneficiariosController : ControllerBase
+    public class VoluntarioController : ControllerBase
     {
         private readonly AppDbContext _context;
 
-        public BeneficiariosController(AppDbContext context)
+        public VoluntarioController(AppDbContext context)
         {
             _context = context;
         }
@@ -19,14 +19,14 @@ namespace gestor_cestas_api.Controllers
         [HttpGet]
         public async Task<ActionResult> GetAll()
         {
-            var model = await _context.Beneficiarios.ToListAsync();
+            var model = await _context.Voluntarios.ToListAsync();
             return Ok(model);
         }
 
         [HttpPost]
-        public async Task<ActionResult> Create(Beneficiario model)
+        public async Task<ActionResult> Create(Voluntario model)
         {
-            _context.Beneficiarios.Add(model);
+            _context.Voluntarios.Add(model);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetById", new { id = model.Id }, model);
@@ -35,7 +35,7 @@ namespace gestor_cestas_api.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult> GetById(int id)
         {
-            var model = await _context.Beneficiarios
+            var model = await _context.Voluntarios
                 .FirstOrDefaultAsync(c => c.Id == id);
 
             if (model == null) return NotFound();
@@ -45,15 +45,16 @@ namespace gestor_cestas_api.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult> Update(int id, Beneficiario model)
+
+        public async Task<ActionResult> Update(int id, Voluntario model)
         {
             if (id != model.Id) return BadRequest();
-            var modeloDb = await _context.Beneficiarios.AsNoTracking()
+            var modeloDb = await _context.Voluntarios.AsNoTracking()
                 .FirstOrDefaultAsync(c => c.Id == id);
 
             if (modeloDb == null) return NotFound();
 
-            _context.Beneficiarios.Update(model);
+            _context.Voluntarios.Update(model);
             await _context.SaveChangesAsync();
 
             return NoContent();
@@ -62,13 +63,13 @@ namespace gestor_cestas_api.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(int id)
         {
-            var model = await _context.Beneficiarios.FindAsync(id);
+            var model = await _context.Voluntarios.FindAsync(id);
 
             if (model == null) NotFound();
 
             if (model != null)
             {
-                _context.Beneficiarios.Remove(model);
+                _context.Voluntarios.Remove(model);
                 await _context.SaveChangesAsync();
             }
 
@@ -77,13 +78,13 @@ namespace gestor_cestas_api.Controllers
 
         }
 
-        private void GerarLinks(Beneficiario model)
-        {
-            model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "self", metodo: "GET"));
-            model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "update", metodo: "PUT"));
-            model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "delete", metodo: "Delete"));
+        private void GerarLinks(Voluntario model)
+            {
+                model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "self", metodo: "GET"));
+                model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "update", metodo: "PUT"));
+                model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "delete", metodo: "Delete"));
+
+            }
 
         }
-
-    }
 }

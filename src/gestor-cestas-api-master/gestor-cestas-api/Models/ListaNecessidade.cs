@@ -9,8 +9,5 @@ namespace gestor_cestas_api.Models
         public int IdBeneficiario { get; set; }
         public string ListaNecessidades { get; set; }
 
-        // Propriedade de navegação para a chave estrangeira
-        public Beneficiario Beneficiario { get; set; }
-
     }
 }

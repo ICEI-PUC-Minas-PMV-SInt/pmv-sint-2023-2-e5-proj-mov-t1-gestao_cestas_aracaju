@@ -1,5 +1,6 @@
 ﻿using Swashbuckle.AspNetCore.Annotations;
 using System.ComponentModel.DataAnnotations;
+using System.Reflection.Metadata;
 
 namespace gestor_cestas_api.Models
 {
@@ -8,8 +9,8 @@ namespace gestor_cestas_api.Models
         [Key]
         [SwaggerSchema("Identificador", ReadOnly = true)]
         public int Id { get; set; }
-       
-        [Required]  
+
+        [Required]
         public string Nome { get; set; }
 
         public string Apelido { get; set; }
@@ -28,10 +29,7 @@ namespace gestor_cestas_api.Models
 
         public string Cidade { get; set; }
 
-        public string Foto { get; set; }
+        public String Foto { get; set; }
 
-        public List<RegistroCesta> RegistroCesta { get; set; }
-        public List<ListaNecessidade> ListaNecessidade { get; set; }
-        public List<Dependente> Dependente { get; set; }
     }
 }

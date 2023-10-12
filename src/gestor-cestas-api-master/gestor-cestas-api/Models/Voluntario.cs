@@ -25,7 +25,7 @@ namespace gestor_cestas_api.Models
         [JsonIgnore]
         public string Password { get; set; }
 
-        [SwaggerSchema("Endereço")]
+        [SwaggerSchema("Endereco")]
         public string Logradouro { get; set; }
 
         public string Bairro { get; set; }
@@ -33,8 +33,6 @@ namespace gestor_cestas_api.Models
         public string Numero { get; set; }
 
         public string Cidade { get; set; }
-
-        public List<RegistroCesta> RegistroCesta { get; set; }
 
     }
 }
