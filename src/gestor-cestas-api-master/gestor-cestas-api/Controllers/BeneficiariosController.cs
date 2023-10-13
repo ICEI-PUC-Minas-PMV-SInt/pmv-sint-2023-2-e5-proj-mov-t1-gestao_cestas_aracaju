@@ -10,10 +10,12 @@ namespace gestor_cestas_api.Controllers
     public class BeneficiariosController : ControllerBase
     {
         private readonly AppDbContext _context;
+        private readonly ILinkGenerator _linkGenerator;
 
-        public BeneficiariosController(AppDbContext context)
+        public BeneficiariosController(AppDbContext context, ILinkGenerator linkGenerator)
         {
             _context = context;
+            _linkGenerator = linkGenerator; 
         }
 
         [HttpGet]
@@ -40,7 +42,10 @@ namespace gestor_cestas_api.Controllers
 
             if (model == null) return NotFound();
 
-            GerarLinks(model);
+            if (_linkGenerator != null)
+            {
+                _linkGenerator.GerarLinks(model);
+            }
             return Ok(model);
         }
 
@@ -70,8 +75,9 @@ namespace gestor_cestas_api.Controllers
             {
                 _context.Beneficiarios.Remove(model);
                 await _context.SaveChangesAsync();
-            }
 
+            }
+            
 
             return NoContent();
 

@@ -1,3 +1,4 @@
+using gestor_cestas_api.Controllers;
 using gestor_cestas_api.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -9,6 +10,10 @@ builder.Services.AddControllers();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
+
+builder.Services.AddTransient<ILinkGenerator, gestor_cestas_api.Models.ILinkGenerator.NullLinkGenerator>();
+builder.Services.AddTransient<BeneficiariosController>();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
