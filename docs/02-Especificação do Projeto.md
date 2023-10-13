@@ -167,18 +167,25 @@ Atualmente todo o processo é realizado através da ferramenta Excel. O cadastro
 
 ### Descrição Geral da Proposta
 
-A proposta é criar um aplicativo mobile que sane as principais dificuldades do cliente. O aplicativo permitirá o cadastro de beneficiários e sua consulta por nome ou cpf otimizando o tempo de enetrega das cestas. Também sera possível realizar o cadastro de quantos dependentes forem necessários, ampliando a possibilidade de entrega das cestas, pois atualmente a cesta é entregue  para a matriarca da família ou o único dependente cadastrado, ocorrendo muitas vezes da cesta não ser entregue caso ambos não estejam para recebe-lá. Haverá também um campo para adicionar as necessidades extras que as famílias necessiatam, criando um registro organizado com a "necessidade" e "para quem" deve ser providenciada. 
+A proposta é criar um aplicativo mobile que sane as principais dificuldades do cliente. O aplicativo permitirá o cadastro de beneficiários e sua consulta por nome ou cpf otimizando o tempo de enetrega das cestas. 
+
+Também sera possível realizar o cadastro de quantos dependentes forem necessários, ampliando a possibilidade de entrega das cestas, pois atualmente a cesta é entregue  para a matriarca da família ou o único dependente cadastrado, ocorrendo muitas vezes da cesta não ser entregue caso ambos não estejam para recebe-lá.
+
+Haverá também um campo para adicionar as necessidades extras que as famílias necessiatam, criando um registro organizado com a "necessidade" e "para quem" deve ser providenciada. 
 
 
 ### Processo 1 – Cadastro de Beneficiário, Solicitação e Entrega de Cestas
 
 Melhorias propostas: 
-Processo de Cadastro: Cadastro automatizado via aplicativo mobile
-                      Cadastro de mais de um dependente. 
 
-Processo de Entrega:  Consulta por nome ou cpf do beneficiário e dependentes no app.
-                      Registro e histórico de entrega de cestas por beneficiário no app.
-                      Campo com possibilidade de registro de necessidades a serem providenciadas para o beneficiário no app.
+-Processo de Cadastro: 
+* Cadastro automatizado via aplicativo mobile   
+* Cadastro de mais de um dependente. 
+
+-Processo de Entrega: 
+* Consulta por nome ou cpf do beneficiário e dependentes no app.
+* Registro e histórico de entrega de cestas por beneficiário no app.
+* Campo com possibilidade de registro de necessidades a serem providenciadas para o beneficiário no app.
                      
 ![Processo 1](img/processo_bpmn.png)
 
