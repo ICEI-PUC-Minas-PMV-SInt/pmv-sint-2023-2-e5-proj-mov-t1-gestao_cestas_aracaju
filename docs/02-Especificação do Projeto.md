@@ -2,7 +2,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-A ideiação do projeto foi baseada em pesquisas com entrevistas, que foram importantes para a caracterização das personas e, consequentemente, das histórias de usuários. O processo de criação se baseia no usuário, de modo que ele possa usufruir da ferramenta proposta de forma simples e intuitiva.
+A idealização do projeto foi baseada em pesquisas com entrevistas, que foram importantes para a caracterização das personas e, consequentemente, das histórias de usuários. O processo de criação se baseia no usuário, de modo que ele possa usufruir da ferramenta proposta de forma simples e intuitiva.
 
 No desenvolvimento do projeto, a metodologia escolhida foi o Scrum, que se desenvolve por meio de sprints. Dessa forma, há a possibilidade de iteração do projeto e elicitação dos requisitos, tanto funcionais quanto não funcionais.
 
@@ -160,27 +160,33 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ### Análise da Situação Atual
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
+Atualmente todo o processo é realizado através da ferramenta Excel. O cadastro de Beneficiários, a solicitação de cestas, e o registro de entrega de cestas ocorrem através de planilha impressa, que depois é atualizada na planilha digital do excel. Os principais desafios relatados estão relacionados a limitação da planilha impressa  que:
+* não permite o cadastro de mais de um dependende, 
+* dificulta encontrar os dados dos beneficiários e dependentes na hora da entrega da cestas, já que são mais de 100 famílias atendidas.
+* dificulta a anotação de outras necessidades das famílias atendidas.
 
 ### Descrição Geral da Proposta
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+A proposta é criar um aplicativo mobile que sane as principais dificuldades do cliente. O aplicativo permitirá o cadastro de beneficiários e sua consulta por nome ou cpf otimizando o tempo de enetrega das cestas. Também sera possível realizar o cadastro de quantos dependentes forem necessários, ampliando a possibilidade de entrega das cestas, pois atualmente a cesta é entregue  para a matriarca da família ou o único dependente cadastrado, ocorrendo muitas vezes da cesta não ser entregue caso ambos não estejam para recebe-lá. Haverá também um campo para adicionar as necessidades extras que as famílias necessiatam, criando um registro organizado com a "necessidade" e "para quem" deve ser providenciada. 
 
-### Processo 1 – NOME DO PROCESSO
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
+### Processo 1 – Cadastro de Beneficiário, Solicitação e Entrega de Cestas
 
-![Processo 1](img/processo_solicitacao_entrega_cestas.png)
+Melhorias propostas: 
+Processo de Cadastro: Cadastro automatizado via aplicativo mobile
+                      Cadastro de mais de um dependente. 
+
+Processo de Entrega:  Consulta por nome ou cpf do beneficiário e dependentes no app.
+                      Registro e histórico de entrega de cestas por beneficiário no app.
+                      Campo com possibilidade de registro de necessidades a serem providenciadas para o beneficiário no app.
+                     
+![Processo 1](img/processo_bpmn.png)
 
 
 ## Indicadores de Desempenho
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
+![Indicadores de Desempenho](img/indicadores_desempenho.png)
 
-Usar o seguinte modelo: 
-
-![Indicadores de Desempenho](img/02-indic-desemp.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
 
 ## Requisitos
 
