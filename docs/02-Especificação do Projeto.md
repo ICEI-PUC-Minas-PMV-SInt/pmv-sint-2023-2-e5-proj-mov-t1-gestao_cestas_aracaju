@@ -1,7 +1,5 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
 A idealização do projeto foi baseada em pesquisas com entrevistas, que foram importantes para a caracterização das personas e, consequentemente, das histórias de usuários. O processo de criação se baseia no usuário, de modo que ele possa usufruir da ferramenta proposta de forma simples e intuitiva.
 
 No desenvolvimento do projeto, a metodologia escolhida foi o Scrum, que se desenvolve por meio de sprints. Dessa forma, há a possibilidade de iteração do projeto e elicitação dos requisitos, tanto funcionais quanto não funcionais.
@@ -174,7 +172,20 @@ Também sera possível realizar o cadastro de quantos dependentes forem necessá
 Haverá também um campo para adicionar as necessidades extras que as famílias necessiatam, criando um registro organizado com a "necessidade" e "para quem" deve ser providenciada. 
 
 
-### Processo 1 – Cadastro de Beneficiário, Solicitação e Entrega de Cestas
+### Processo Atual – Cadastro de Beneficiário, Solicitação e Entrega de Cestas
+
+-Pontos Negativos:
+
+* Cadastro em planilha do excel;
+* Registro de entrega de cestas em planilha do excel impressa;
+* Gasto honeroso de tempo na procura dos dados dos beneficiados na lista impressa;
+* Apenas um dependente cadastrado devido a limtação da lista impressa;
+* Dificuldade de registro de necessidades adicionais das famílias beneficiadas devido a limitação da lista impressa.
+* Necessidade de atualização mensal das entregas e cadastros na planilha do excel.
+                     
+![Processo 1](img/processo_bpmn.png)
+
+### Processo Futuro – Cadastro de Beneficiário, Solicitação e Entrega de Cestas
 
 Melhorias propostas: 
 
@@ -186,9 +197,10 @@ Melhorias propostas:
 * Consulta por nome ou cpf do beneficiário e dependentes no app.
 * Registro e histórico de entrega de cestas por beneficiário no app.
 * Campo com possibilidade de registro de necessidades a serem providenciadas para o beneficiário no app.
-                     
-![Processo 1](img/processo_bpmn.png)
 
+  Houve pouca diminuição da quantidade de processos. O objetivo era otimizar o tempo gasto com a limitação da lista impressa e facilitar os processos de cadastro, pesquisa de beneficiados, entrega e registros de cestas.
+
+  ![Processo 1](img/processo_bpmn_futuro.png)
 
 ## Indicadores de Desempenho
 
