@@ -1,9 +1,7 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-A metodologia adotada para o desenvolvimento do projeto iniciou-se com uma pesquisa realizada por meio de entrevistas com a parte interessada. Depois de identificar e analisar os problemas, seguimos com a estruturação das soluções para atender às necessidades apresentadas.
+A metodologia adotada para o desenvolvimento do projeto iniciou-se com uma pesquisa realizada por meio de entrevistas com a parte interessada. Depois de identificar e analisar os principais problemas do cliente, seguimos com a estruturação das soluções para atender às necessidades apresentadas.
 
 Para otimizar a organização da equipe e o ambiente de trabalho, optamos por utilizar a metodologia SCRUM. Essa metodologia permite que o trabalho seja realizado de forma simples e dinâmica por meio de pequenos ciclos de atividades (Sprints), que visam resolver problemas complexos e adaptativos.
 
@@ -12,9 +10,6 @@ Para criar uma aplicação web adequada, utilizamos a ferramenta de controle de 
 
 
 ## Relação de Ambientes de Trabalho
-
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito deverá ser apresentada em uma tabela que especifica que detalha Ambiente, Plataforma e Link de Acesso. 
-Nota: Vide documento modelo do estudo de caso "Portal de Notícias" e defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
 
 
 <table>
@@ -38,7 +33,7 @@ Nota: Vide documento modelo do estudo de caso "Portal de Notícias" e defina tam
   <tr>
    <td>Gerenciamento do projeto</td>
    <td>GitHub Projects</td>
-   <td>https://</td>
+   <td>https://github.com/orgs/ICEI-PUC-Minas-PMV-SInt/projects/16/views/1</td>
   </tr>
    <tr>
    <td>Projeto de Interface e Wireframes</td>
@@ -84,15 +79,19 @@ A equipe está organizada da seguinte maneira:
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Planejamento e Gestáo Ágil de Projetos](https://pucminas.instructure.com/courses/87878/pages/unidade-2-tema-2-utilizacao-de-ferramentas-para-controle-de-versoes-de-software)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards)
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+No projeto Cestas Aracaju, serão planejadas Sprints para levantamento de fluxos de:
+
+entrevistas e documentação do projeto
+cadastros dos beneficiários e dependentes;
+cadastro dos voluntários;
+autenticação de voluntarios;
+registro de entrega de cestas;
+registro de necessidades adicionais
+
+
+Para esse projeto ocorrerão reuniões semanais entre a equipe de desenvolvedores do projeto.
+
+Os backlogs do produto, bem como a entrega dos processos em cada Sprint, serão gerenciados e organizados por meio dos quadros de projeto fornecidos no GitHub com a utilização do modelo de Kanban automatizado. Este facilita o manejo dos backlogs do produto, organizando-os em cada sprint, além de permitir a atribuição das tarefas para cada membro da equipe.
 
 ### Ferramentas
 
@@ -101,7 +100,7 @@ As ferramentas empregadas no projeto são:
 - Figma: criação de protótipo;
 - Editor de documento Google: escrita colaborativa entre membros;
 - Google Drive: compartilhamento de documentação;
-- Lucid: Modelo ER, Diagrama de classes;
+- Lucid: Modelo ER, Esquema Relacional, Diagrama de classes;
 - Camunda: Processo BPMN; 
 - Teams: reuniões por vídeo conferência;
 - Github: escrita e estruturação do projeto;
