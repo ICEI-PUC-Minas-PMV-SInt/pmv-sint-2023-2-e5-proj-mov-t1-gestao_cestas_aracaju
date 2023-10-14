@@ -2,13 +2,20 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
+Grupo escolhido: desenvolvedores
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
+Ferramentas utilizadas: AspNet.Core (framework) e Nunit (Framework de teste)
+
+Cenário de teste: Classe BeneficiárioController
+
+Funcionalidade: Gravar, Pesquisar e Excluir cadastro de beneficiários
  
 ## Ferramentas de Testes (Opcional)
 
-Comente sobre as ferramentas de testes utilizadas.
+Para implementação e execução do código de teste, utilizamos o NUnit, um framework de teste do .NET. Ele é amplamente utilizado para facilitar e automatizar os testes unitários, que são focados em partes específicas de código, isolando e garantindo seu funcionamento.</br>
+Sua estrutura consiste nos métodos SetUp, TearDown e Test. O SetUp é utilizado para configurar o ambiente de teste, como criar um banco de dados em memória e criar uma instância do banco e do controlador para serem testados.</br>
+O TearDown é o método para fazer a limpeza do banco de dados em memória após a execução do teste.</br>
+O método Test é onde o código real será executado e o resultado do teste será verificado.
  
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
