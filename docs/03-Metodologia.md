@@ -3,12 +3,50 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+A metodologia adotada para o desenvolvimento do projeto iniciou-se com uma pesquisa realizada por meio de entrevistas com a parte interessada. Depois de identificar e analisar os problemas, seguimos com a estruturação das soluções para atender às necessidades apresentadas.
+
+Para otimizar a organização da equipe e o ambiente de trabalho, optamos por utilizar a metodologia SCRUM. Essa metodologia permite que o trabalho seja realizado de forma simples e dinâmica por meio de pequenos ciclos de atividades (Sprints), que visam resolver problemas complexos e adaptativos.
+
+Para criar uma aplicação web adequada, utilizamos a ferramenta de controle de versão Git e o GitHub como hospedagem do repositório. Para criar e editar as interfaces e wireframes, usamos o Figma, e para a comunicação em grupo, escolhemos o Whatsapp e o Teams como ferramentas.
+
+
 
 ## Relação de Ambientes de Trabalho
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito deverá ser apresentada em uma tabela que especifica que detalha Ambiente, Plataforma e Link de Acesso. 
 Nota: Vide documento modelo do estudo de caso "Portal de Notícias" e defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
+
+
+<table>
+ <thead>
+  <tr>
+   <th>Ambiente</th>
+   <th>Plataforma</th>
+   <th>Link de Acesso</th>
+ </thead>
+ <tbody>
+  <tr>
+   <td>Repositório de Código Fonte</td>
+   <td>GitHub</td>
+   <td>https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e5-proj-mov-t1-gestao_cestas_aracaju/tree/main</td>
+  </tr>
+  <tr>
+   <td>Documentos do projeto</td>
+   <td>GitHub</td>
+   <td>https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e5-proj-mov-t1-gestao_cestas_aracaju/tree/main</td>
+  </tr>
+  <tr>
+   <td>Gerenciamento do projeto</td>
+   <td>GitHub Projects</td>
+   <td>https://</td>
+  </tr>
+   <tr>
+   <td>Projeto de Interface e Wireframes</td>
+   <td>Figma</td>
+   <td>https://www.figma.com/proto/synsdbMH3CwOj6nZFl9syQ/AppMobile?page-id=0%3A1&type=design&node-id=2-299&viewport=508%2C-545%2C0.3&t=OBBXcEU1vZQoC2Up-1&scaling=scale-down&starting-point-node-id=2%3A299&show-proto-sidebar=1</td>
+  </tr>
+ </tbody>
+ </table>
 
 ## Controle de Versão
 
@@ -31,32 +69,18 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Microfundamento: Gerência de Configuração](https://pucminas.instructure.com/courses/87878/)
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
+Todo o desenvolvimento inicial de recursos deve ocorrer na branch principal (main) do projeto. As atualizações serão enviadas através de commits para o repositório central, que, após a finalização e envio de uma solicitação pull, será mesclado no projeto. As tags serão utilizadas para destacar estágios do desenvolvimento de algum recurso. Para separar o Front-end do Back-end no projeto, utilizaremos os submodules do Git, pois permitem manter os dois repositórios como subdiretórios do repositório principal. Esses submódulos serão uma referência para outros repositórios, permitindo que um incorpore e rastreie o histórico de versões de código externo.
 
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. 
 
-Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
-- Scrum Master: Felipe Domingos;
-- Product Owner: Rommel Carneiro;
-- Equipe de Desenvolvimento: Pedro Penna, Pedro Ivo, Rodrigo Richard;
-- Equipe de Design: Simone Nogueira.
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-> - [Os papéis do Scrum e a verdade sobre cargos nessa técnica](https://www.atlassian.com/br/agile/scrum/roles)
+A equipe está organizada da seguinte maneira:
+- Scrum Master: Elaine Souza Melo;
+- Product Owner: Amanda Paloma Lourenço;
+- Equipe de Desenvolvimento: Amanda Paloma Lourenço e Elaine Souza Melo;
 
 ### Processo
 
@@ -74,14 +98,20 @@ Coloque  informações sobre detalhes da implementação do Scrum seguido pelo g
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+- Figma: criação de protótipo;
+- Editor de documento Google: escrita colaborativa entre membros;
+- Google Drive: compartilhamento de documentação;
+- Lucid: Modelo ER, Diagrama de classes;
+- Camunda: Processo BPMN; 
+- Teams: reuniões por vídeo conferência;
+- Github: escrita e estruturação do projeto;
+- Whatsapp: interação e troca de informações entre a equipe.
 
-O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+O Github foi escolhido por sua simplicidade de acesso, visto que não é necessário instalar um software, o que nos possibilita acessar via web e mobile. Além disso, dada a sua integração com o sistema de controle de versão GIT, ele facilita o gerenciamento dos códigos.
+
+As ferramentas de comunicação foram definidas pela praticidade. O Microsoft Teams foi escolhido para reuniões de alinhamento semanais e o Whatsapp foi escolhido com o foco nas reuniões diárias para rápida resolução de algum tópico e demais tarefas que surgirão diariamente.
+
+Para ferramentas de desenho de tela e prototipagem, utilizamos o Figma, que nos dá a possibilidade de trabalho em equipe no projeto de maneira simultânea e permite a gestão dos projetos.  
+
+Por fim, para criar diagramas, utilizaremos o Lucid  e para criação dos processos utilizaremos o Camunda. Ambas as ferramentas de uso intuitivo e boa compreensão.
