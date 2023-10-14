@@ -204,6 +204,8 @@ Melhorias propostas:
 
 ## Indicadores de Desempenho
 
+Os indicadores de desempenho se basearam nas principais queixas do cliente. Abaixo estão relacionados os indicadores e a proposta de solução através da automatização dos processos pelo App Mobile.
+
 ![Indicadores de Desempenho](img/indicadores_desempenho.png)
 
 
