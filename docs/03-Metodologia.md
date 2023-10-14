@@ -81,12 +81,15 @@ A equipe está organizada da seguinte maneira:
 
 No projeto Cestas Aracaju, serão planejadas Sprints para levantamento de fluxos de:
 
-entrevistas e documentação do projeto
-cadastros dos beneficiários e dependentes;
-cadastro dos voluntários;
-autenticação de voluntarios;
-registro de entrega de cestas;
-registro de necessidades adicionais
+- entrevistas e documentação do projeto;
+- cadastros dos beneficiários e dependentes;
+- cadastro dos voluntários;
+- autenticação de voluntarios;
+- registro de entrega de cestas;
+- registro de necessidades adicionais
+
+![Metodologia](img/gerenciamento_projeto.png)
+ 
 
 
 Para esse projeto ocorrerão reuniões semanais entre a equipe de desenvolvedores do projeto.
