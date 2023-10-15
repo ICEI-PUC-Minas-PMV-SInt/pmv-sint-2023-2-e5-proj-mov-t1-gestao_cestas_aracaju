@@ -17,11 +17,30 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 ## Esquema Relacional
 
-O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
- 
-As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
+*Tabela Beneficiários*
 
-> - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
+![Tabela Beneficiários](img/tab_beneficiario.png)
+
+
+*Tabela Voluntários*
+
+![Tabela Voluntários](img/tab_voluntario.png)
+
+
+*Tabela Dependentes*
+
+![Tabela Dependentes](img/tab_dependente.png)
+
+
+*Tabela Lista de Necessidades*
+
+![Tabela Lista de Necessidades](img/tab_lista.png)
+
+
+*Tabela Registro de Cestas*
+
+![Tabela Registro de Cestas](img/tab_cesta.png)
+
 
 ## Modelo Físico
 
@@ -29,9 +48,16 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Rel
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+As tecnologias utilizadas no desenvolvimento do software foram:
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+- Desenho de protótipo: **Figma**
+- Desenvolvimento Back-end:**.NET 6.0**;
+- Framework Teste: **NUnit**;
+- Servidor do banco de dados: **SQLite**;
+- Desenvolvimento Front-end: **--**;
+- Armazenamento de objetos: **--**;
+- Hospedagem em Nuvem: **--**;
+
 
 ## Hospedagem
 
@@ -46,12 +72,51 @@ Explique como a hospedagem e o lançamento da plataforma foi feita.
 
 ## Qualidade de Software
 
-Conceituar qualidade de fato é uma tarefa complexa, mas ela pode ser vista como um método gerencial que através de procedimentos disseminados por toda a organização, busca garantir um produto final que satisfaça às expectativas dos stakeholders.
+- Usabilidade
 
-No contexto de desenvolvimento de software, qualidade pode ser entendida como um conjunto de características a serem satisfeitas, de modo que o produto de software atenda às necessidades de seus usuários. Entretanto, tal nível de satisfação nem sempre é alcançado de forma espontânea, devendo ser continuamente construído. Assim, a qualidade do produto depende fortemente do seu respectivo processo de desenvolvimento.
+|-| O sistema deve ser pensado para o usuário|
+|--|-------------------------------------------------------|
+|Estímulo| O Usuário realiza ações específicas e objetivas no sistema.|
+|Fonte do estímulo| Usuário.|
+|Ambiente| Sistema com carga normal.|
+|Artefato| Sistema como um todo.|
+|Resposta| Fluxo do usuário sem interrupções e com fácil navegabilidade.|
+|Medida de resposta| O usuário consegue finalizar as tarefas específicas, do início ao fim, no sistema.|
 
-A norma internacional ISO/IEC 25010, que é uma atualização da ISO/IEC 9126, define oito características e 30 subcaracterísticas de qualidade para produtos de software.
-Com base nessas características e nas respectivas sub-características, identifique as sub-características que sua equipe utilizará como base para nortear o desenvolvimento do projeto de software considerando-se alguns aspectos simples de qualidade. Justifique as subcaracterísticas escolhidas pelo time e elenque as métricas que permitirão a equipe avaliar os objetos de interesse.
+- Disponibilidade
+
+|-| O sistema deve estar disponível em horário integral, durante 24h por dia e sete dias por semana|
+|--|-------------------------------------------------------|
+|Estímulo| Usuário acessa sistema no domingo no periódo da madrugada.|
+|Fonte do estímulo| Usuário.|
+|Ambiente| Sistema como carga normal.|
+|Artefato| Sistema como um todo.|
+|Resposta| O sistema deve permitir o acesso ao usuário em qualquer hora, seja do dia ou noite.|
+|Medida de resposta| Todas tentativas de acesso e requisição de informações ao sistema devem ser respondidas.|
+
+- Modificabilidade
+
+|-| O sistema deve ser modular e componentizado, utilizando orientação a objetos e ser construído com arquitetura distribuída|
+|--|-------------------------------------------------------|
+|Estímulo| Construção e integração de um novo módulo com ouros módulos da arquitetura distribuída.|
+|Fonte do estímulo| Desenvolvedor de software.|
+|Ambiente| Ambiente de desenvolvimento.|
+|Artefato| Módulos de informações cadastrais.|
+|Resposta| Módulos pré-existentes do sistema se comunicando com o novo módulo com baixo acoplamento.|
+|Medida de resposta|Qualquer intervenção de um ou mais módulos não gera reflexos generalizados no ambiente como um todo e a disponobilização de um novo módulo não interrompe os outros em funcionamento.|
+
+
+- Interoperabilidade
+
+|-| O sistema deverá interoperar com aplicações legadas com baixo acoplamento utilizando APIs ou outros recursos para consumo de serviços|
+|--|-------------------------------------------------------|
+|Estímulo| O sistema para completar uma operação precisa recuperar uma informação que está localizada no domínio de uma aplicação legada.|
+|Fonte do estímulo|O sistema como um todo.|
+|Ambiente| Sistema com carga normal.|
+|Artefato| Módulo de informações cadastrais.|
+|Resposta| Troca de informações com os sistemas legados.|
+|Medida de resposta| Conexão, envio de mensagens e/ou requisições e/ou respostas provenientes de aplicações legadas.|
+
 
 > **Links Úteis**:
 >
