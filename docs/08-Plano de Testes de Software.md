@@ -2,13 +2,73 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
 
-Grupo escolhido: desenvolvedores
+Cenário de teste: Classe BeneficiariosController
+
+Grupo escolhido: Desenvolvedores
+
+Tipo Teste: Unitário
 
 Ferramentas utilizadas: AspNet.Core (framework) e Nunit (Framework de teste)
 
-Cenário de teste: Classe BeneficiárioController
-
 Funcionalidade: Gravar, Pesquisar e Excluir cadastro de beneficiários
+
+![Teste unitário da Classe Beneficiário](img/teste_beneficiario.png)
+
+<hr>
+
+Cenário de teste: Classe VoluntariosController
+
+Grupo escolhido: Desenvolvedores
+
+Tipo Teste: Unitário
+
+Ferramentas utilizadas: AspNet.Core (framework) e Nunit (Framework de teste)
+
+Funcionalidade: Gravar, Pesquisar e Excluir cadastro de voluntários
+
+![Teste unitário da Classe Voluntário](img/teste_voluntario.png)
+
+<hr>
+
+Cenário de teste: Classe DependentesController
+
+Grupo escolhido: Desenvolvedores
+
+Tipo Teste: Unitário
+
+Ferramentas utilizadas: AspNet.Core (framework) e Nunit (Framework de teste)
+
+Funcionalidade: Gravar, Pesquisar e Excluir cadastro de dependentes
+
+![Teste unitário da Classe Dependente](img/teste_dependente.png)
+
+<hr>
+Cenário de teste: Classe LIstaNecessidadesController
+
+Grupo escolhido: Desenvolvedores
+
+Tipo Teste: Unitário
+
+Ferramentas utilizadas: AspNet.Core (framework) e Nunit (Framework de teste)
+
+Funcionalidade: Gravar, Pesquisar e Excluir cadastro de listas de necessidades dos beneficiários
+
+![Teste unitário da Classe Lista Necessidade](img/teste_lista.png)
+
+<hr>
+
+Cenário de teste: Classe RegistroCestasController
+
+Grupo escolhido: Desenvolvedores
+
+Tipo Teste: Unitário
+
+Ferramentas utilizadas: AspNet.Core (framework) e Nunit (Framework de teste)
+
+Funcionalidade: Gravar, Pesquisar e Excluir cadastro de entrega de cestas
+
+![Teste unitário da Classe Registro Cesta](img/teste_cesta.png)
+
  
 ## Ferramentas de Testes (Opcional)
 
