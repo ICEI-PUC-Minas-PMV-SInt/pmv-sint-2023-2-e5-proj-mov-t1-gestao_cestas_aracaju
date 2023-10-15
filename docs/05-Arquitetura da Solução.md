@@ -33,7 +33,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Rel
 
 ## Modelo Físico
 
-[Modelo físico do banco de dados](src/db/database.sqlite)
+[Modelo físico do banco de dados](src/db)
 
 ## Tecnologias Utilizadas
 
