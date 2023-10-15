@@ -2,7 +2,22 @@
 
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
 
-Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
+**Objetivos**
+
+O objetivo do plano de teste é verificar se o método GetAsync() de um controlador retorna o resultado esperado.
+
+**Estratégias**
+
+O teste irá usar assertivas para verificar se os resultados irão retornar o valor esperado para cada método testado.
+
+**Casos de teste**
+
+    Teste de sucesso: O método GetAsync() deve retornar o status aprovado.
+    Teste de falha: O método GetAsync() deve retornar o status reprovado.
+   
+**Resultados**
+
+Todos os casos de teste devem passar.
 
 ## Avaliação
 

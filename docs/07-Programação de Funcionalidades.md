@@ -2,8 +2,16 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
 
-RF-004 Permitir Cadastro de beneficiários
 
+O projeto do Sistema para gerenciamento de entrega de cestas está implementado com as funcionalidades específicas de CRUD para inserção, pesquisa, atualização e remoção de dados no banco.
+
+A API Restful funciona por meio de requisição e respostas HTTP, transportando os dados entre a camada do servidor de banco e a interface do usuário.
+
+Os artefatos gerados caracterizam-se pelas classes de entidades principais, como as de Voluntários e Beneficiários, e classes dependentes, como as de Dependentes, Registro de Cesta e Lista de Necessidades. Essas classes estão conectadas com a entidade do Beneficiário por meio de links gerados, o que facilita a pesquisa e edição de dados específicos de cada cadastro.
+
+**RF-004 Permitir Cadastro de beneficiários**
+
+Método Post para inserção de cadastro de beneficiários no banco de dados.
 ```
 [HttpPost]
         public async Task<ActionResult> Create(Beneficiario model)
@@ -14,9 +22,28 @@ RF-004 Permitir Cadastro de beneficiários
             return CreatedAtAction("GetById", new { id = model.Id }, model);
         }
 ```
+
+*Estrutura dos dados*
+
+```
+  "id": 0,
+  "nome": "string",
+  "apelido": "string",
+  "rg": "string",
+  "cpf": "string",
+  "telefone": "string",
+  "logradouro": "string",
+  "bairro": "string",
+  "numero": "string",
+  "cidade": "string",
+  "foto": "string"
+```
+
 <hr>
 
-RF005 - Consultar por Beneficiário
+**RF005 - Consultar por Beneficiário**
+
+Método GetById para pesquisa e consulta de cadastro de beneficiários no banco de dados.
 ```
   [HttpGet("{id}")]
         public async Task<ActionResult> GetById(int id)
@@ -32,7 +59,9 @@ RF005 - Consultar por Beneficiário
 ```
 <hr>
 
-RF006- Permitir atualização dos daos cadstrados dos beneficiários
+**RF006- Permitir atualização dos daos cadstrados dos beneficiários**
+
+Método Put para atualização de cadastro de beneficiários no banco de dados.
 ```
 [HttpPut("{id}")]
         public async Task<ActionResult> Update(int id, Beneficiario model)
@@ -51,7 +80,9 @@ RF006- Permitir atualização dos daos cadstrados dos beneficiários
 ```
 <hr>
 
-RF-007- Permitir exclusão dos dados cadastrados de beneficiários
+**RF-007- Permitir exclusão dos dados cadastrados de beneficiários**
+
+Método Delete para remocção de cadastro específico no banco de dados.
 ```
 [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(int id)
@@ -73,7 +104,9 @@ RF-007- Permitir exclusão dos dados cadastrados de beneficiários
 ```
 <hr>
 
-RF008- Permitir inserção de itens na listaa de necessidades essenciais
+**RF008- Permitir inserção de itens na lista de necessidades essenciais**
+
+Método Post para inserção de lista de necessidades no banco de dados.
 ```
 [HttpPost]
         public async Task<ActionResult> Create(ListaNecessidade model)
@@ -84,9 +117,18 @@ RF008- Permitir inserção de itens na listaa de necessidades essenciais
             return CreatedAtAction("GetById", new { id = model.Id }, model);
         }
 ```
+*Estrutura dos dados:*
+```
+  "id": 0,
+  "idBeneficiario": 0,
+  "listaNecessidades": "string"
+```
+
 <hr>
 
-RF009- Permitir edição das listas de necessidades
+**RF009- Permitir edição das listas de necessidades**
+
+Método Put para atualização da lista de necessidades no banco de dados.
 ```
 [HttpPut("{id}")]
 
@@ -106,7 +148,9 @@ RF009- Permitir edição das listas de necessidades
 ```
 <hr>
 
-RF010- Registrar a entrega das cestas
+**RF010- Registrar a entrega das cestas**
+
+Método Post para inserção de registro no banco de dados.
 ```
 [HttpPost]
         public async Task<ActionResult> Create(RegistroCesta model)
@@ -116,6 +160,15 @@ RF010- Registrar a entrega das cestas
 
             return CreatedAtAction("GetById", new { id = model.Id }, model);
         }
+```
+*Estrutura dos dados:*
+
+```
+  "id": 0,
+  "idBeneficiario": 0,
+  "idVoluntario": 0,
+  "quantidadeCesta": 0,
+  "dataEntrega": "2023-10-15T20:48:12.346Z"
 ```
 
 
