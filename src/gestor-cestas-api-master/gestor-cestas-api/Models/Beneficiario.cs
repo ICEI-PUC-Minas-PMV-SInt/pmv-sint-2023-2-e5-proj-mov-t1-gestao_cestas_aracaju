@@ -29,7 +29,7 @@ namespace gestor_cestas_api.Models
 
         public string Cidade { get; set; }
 
-        public String Foto { get; set; }
+        public string Estado { get; set; }
 
     }
 }
