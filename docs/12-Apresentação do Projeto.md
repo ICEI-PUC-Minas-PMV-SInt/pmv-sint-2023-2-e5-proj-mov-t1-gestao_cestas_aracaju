@@ -19,9 +19,11 @@ O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do conte
 
 ## Conjunto de Slides (Estrutura)
 
-O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro do tempo determinado. Importante ressaltar a importância da descrição clara de todo o andamento do projeto, insumos gerados e requisitos atendidos.
+O projeto buscou atender as principais queixas do cliente, conforme  descrito no segundo slide. O desenvolvimento do projeto ocorreu em duas etapas: desenvolvimento back-end em .Net e posteriormente o desenvolvimento front-end em React native. A hospedagem ocorreu em nuvem pela Azure. A aplicação Mobile teve como foco sanar as principais dificuldades do cliente no quesito cadastro e consulta de beneficiário e dependentes, registro de cestas e necessidades adicionais.
  
-> **Links Úteis**:
-> - [A regra 10-20-30 para apresentações de sucesso](https://revistapegn.globo.com/Noticias/noticia/2014/07/regra-10-20-30-para-apresentacoes-de-sucesso.html)
-> - [Top Tips for Effective Presentations](https://www.skillsyouneed.com/present/presentation-tips.html)
-> - [How to make a great presentation](https://www.ted.com/playlists/574/how_to_make_a_great_presentation)
+![Apresentação Final](img/Slide1.PNG)
+![Apresentação Final](img/Slide2.PNG)
+![Apresentação Final](img/Slide3.PNG)
+![Apresentação Final](img/Slide4.PNG)
+![Apresentação Final](img/Slide5.PNG)
+![Apresentação Final](img/Slide6.PNG)
